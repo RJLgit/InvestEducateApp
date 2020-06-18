@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/menu_home"
+            android:title="Home" />
+        <item android:id="@+id/menu_funds"
+            android:title="Funds" />
+        <item android:id="@+id/menu_cash"
+            android:title="Cash" />
+        <item android:id="@+id/menu_etf"
+            android:title="ETF" />
+        <item android:id="@+id/menu_shares"
+            android:title="Shares" />
+        <item android:id="@+id/menu_cbonds"
+            android:title="Corporate bonds" />
+        <item android:id="@+id/menu_gbonds"
+            android:title="Government bonds" />
+        <item android:id="@+id/menu_peer"
+            android:title="Peer to peer" />
+    </group>
+    <item android:title="Share">
+        <menu>
+            <item android:id="@+id/menu_share"
+                android:title="Share"
+                android:icon="@drawable/ic_share" />
+        </menu>
+    </item>
+
+</menu>
